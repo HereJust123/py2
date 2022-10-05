@@ -1,20 +1,20 @@
-# py2: Write program to check if a number is prime or not
-def PrimeChecker(a):  
+# py2: program to check if a number is prime or not
+def PrimeChecker(b):  
    
-    if a > 1:  
+    if b > 1:  
          
-        for j in range(2, int(a/2) + 1):  
+        for j in range(2, int(b/2) + 1):  
            
-            if (a % j) == 0:  
-                print(a, "is not a prime number")  
+            if (b % j) == 0:  
+                print(b, "is not a prime number")  
                 break  
          
         else:  
-            print(a, "is a prime number")  
+            print(b, "is a prime number")  
     
     else:  
-        print(a, "is not a prime number")  
+        print(b, "is not a prime number")  
   
-a = int(input("Enter an input number:"))  
+b = int(input("Enter an input number:"))  
   
-PrimeChecker(a)  
+PrimeChecker(b)  
